@@ -33,5 +33,10 @@
     "id": 7,
     "name": "Mystic Mirage",
     "speciality": "Illusionist who can create mirages to confuse and mislead enemies."
+  },
+  {
+    "id": 8,
+    "name": "Soulmender",
+    "speciality": "Heals allies by channeling rejuvenating energy, restoring health over time."
   }
 ]
