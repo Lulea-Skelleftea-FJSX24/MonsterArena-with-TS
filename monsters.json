@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Shadow Reaper",
+    "speciality": "Masters shadows to cloak and deceive enemies."
+  },
+  {
+    "id": 2,
+    "name": "Blaze Fury",
+    "speciality": "Breathes fire hotter than lava and can withstand extreme heat."
+  },
+  {
+    "id": 3,
+    "name": "Frostbite Phantom",
+    "speciality": "Controls icy winds and can freeze opponents in their tracks."
+  },
+  {
+    "id": 4,
+    "name": "Thunderstrike",
+    "speciality": "Generates powerful thunderstorms and electric shocks."
+  },
+  {
+    "id": 5,
+    "name": "Venom Viper",
+    "speciality": "Releases toxic venom that can paralyze foes instantly."
+  },
+  {
+    "id": 6,
+    "name": "Earthshaker",
+    "speciality": "Creates earthquakes with a single stomp and manipulates rocks."
+  },
+  {
+    "id": 7,
+    "name": "Mystic Mirage",
+    "speciality": "Illusionist who can create mirages to confuse and mislead enemies."
+  }
+]
