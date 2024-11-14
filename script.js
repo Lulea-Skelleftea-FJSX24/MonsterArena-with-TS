@@ -11,8 +11,8 @@ fetch("./monsters.json")
     data.forEach((character) => {
       const characterDiv = document.createElement("div");
       characterDiv.innerHTML = `
-       <img src="/" alt="bild på Monster">
-       <h2>${character.name}</h2>
+        <h2>${character.name}</h2>
+       <img src="${character.image}" alt="${character.name}" width = "200">
        <p><strong>Speciality:</strong> ${character.speciality}</p>
        <button>Välj mig!</button>
      `;
