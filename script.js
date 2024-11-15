@@ -14,6 +14,8 @@ fetch("./monsters.json")
         <h2>${character.name}</h2>
        <img src="${character.image}" alt="${character.name}" width = "200">
        <p><strong>Speciality:</strong> ${character.speciality}</p>
+       <p><strong>Health:</strong> ${character.health}</p>
+       <p><strong>Damage:</strong> ${character.damage}</p>
        <button>Välj mig!</button>
      `;
       characterList.appendChild(characterDiv);
