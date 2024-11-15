@@ -85,6 +85,7 @@ function taBortFranLag(id) {
 
 function rensaLag() {
   valtLag = [];
+  document.querySelectorAll('button[disabled]').forEach(button => button.disabled = false);
   sparaLag();
   visaValtLag();
 }
