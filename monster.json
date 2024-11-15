@@ -1,42 +1,66 @@
 [
-    {
-      "id": 1,
-      "name": "Shadow Reaper",
-      "speciality": "Masters shadows to cloak and deceive enemies."
-    },
-    {
-      "id": 2,
-      "name": "Blaze Fury",
-      "speciality": "Breathes fire hotter than lava and can withstand extreme heat."
-    },
-    {
-      "id": 3,
-      "name": "Frostbite Phantom",
-      "speciality": "Controls icy winds and can freeze opponents in their tracks."
-    },
-    {
-      "id": 4,
-      "name": "Thunderstrike",
-      "speciality": "Generates powerful thunderstorms and electric shocks."
-    },
-    {
-      "id": 5,
-      "name": "Venom Viper",
-      "speciality": "Releases toxic venom that can paralyze foes instantly."
-    },
-    {
-      "id": 6,
-      "name": "Earthshaker",
-      "speciality": "Creates earthquakes with a single stomp and manipulates rocks."
-    },
-    {
-      "id": 7,
-      "name": "Mystic Mirage",
-      "speciality": "Illusionist who can create mirages to confuse and mislead enemies."
-    },
-    {
-      "id": 8,
-      "name": "Soulmender",
-      "speciality": "Heals allies by channeling rejuvenating energy, restoring health over time."
-    }
+  {
+    "id": 1,
+    "name": "Shadow Reaper",
+    "speciality": "Masters shadows to cloak and deceive enemies.",
+    "health": "190",
+    "damage": "185",
+    "image": "img/Shadow Reaper.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Blaze Fury",
+    "speciality": "Breathes fire hotter than lava and can withstand extreme heat.",
+    "health": "200",
+    "damage": "130",
+    "image": "img/Blaze Fury.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Icy Phantom",
+    "speciality": "Controls icy winds and can freeze opponents in their tracks.",
+    "health": "190",
+    "damage": "140",
+    "image": "img/Icy Phantom.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Thunderstrike",
+    "speciality": "Generates powerful thunderstorms and electric shocks.",
+    "health": "200",
+    "damage": "160",
+    "image":"img/Thunderstrike.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Venom Viper",
+    "speciality": "Releases toxic venom that can paralyze foes instantly.",
+    "health": "170",
+    "damage": "190",
+    "image": "img/Venom Viper.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Earthshaker",
+    "speciality": "Creates earthquakes with a single stomp and manipulates rocks.",
+    "health": "200",
+    "damage": "120",
+    "image": "img/Earthshaker.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Mystic Mirage",
+    "speciality": "Illusionist who can create mirages to confuse and mislead enemies.",
+    "health": "180",
+    "damage": "145",
+    "image": "img/Mystic Mirage.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Soulmender",
+    "speciality": "Heals allies by channeling rejuvenating energy, restoring health over time.",
+    "health": "160",
+    "damage": "165",
+    "image": "img/Soulmender.jpeg"
+  }
 ]
