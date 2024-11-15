@@ -4,7 +4,7 @@
       "name": "Shadow Reaper",
       "speciality": "Masters shadows to cloak and deceive enemies.",
       "health": "190",
-      "damage": "150",
+      "damage": "185",
       "image": "img/Shadow Reaper.jpeg"
     },
     {
@@ -59,7 +59,7 @@
       "id": 8,
       "name": "Soulmender",
       "speciality": "Heals allies by channeling rejuvenating energy, restoring health over time.",
-      "health": "155",
+      "health": "160",
       "damage": "165",
       "image": "img/Soulmender.jpeg"
     }
