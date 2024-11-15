@@ -2,9 +2,9 @@
 #mainContainer {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal columns */
-  gap: 15px;
+  gap: 25px;
   width: 100%; /* Make the container span the full width */
-  max-width: 1200px; /* Limit the container width for large screens */
+
   margin: 0 auto; /* Center the grid container on the page */
   padding: 15px; /* Add some padding to the container */
   box-sizing: border-box; /* Include padding in total width/height */
@@ -21,6 +21,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   box-sizing: border-box; /* Ensure proper box sizing */
+  height: 100%;
 }
 h1 {
   text-align: center;
@@ -88,6 +89,7 @@ h1 {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+  width: 100%;
 }
 
 .card {
