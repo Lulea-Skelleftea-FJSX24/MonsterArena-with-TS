@@ -35,8 +35,8 @@
       "id": 5,
       "name": "Venom Viper",
       "speciality": "Releases toxic venom that can paralyze foes instantly.",
-      "health": "150",
-      "damage": "170",
+      "health": "170",
+      "damage": "190",
       "image": "img/Venom Viper.jpeg"
     },
     {
@@ -59,7 +59,7 @@
       "id": 8,
       "name": "Soulmender",
       "speciality": "Heals allies by channeling rejuvenating energy, restoring health over time.",
-      "health": "170",
+      "health": "155",
       "damage": "165",
       "image": "img/Soulmender.jpeg"
     }
