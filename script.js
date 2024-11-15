@@ -17,7 +17,7 @@ fetch("./monsters.json")
        <p><strong>Speciality:</strong> ${character.speciality}</p>
        <p><strong>Health:</strong> ${character.health}</p>
        <p><strong>Damage:</strong> ${character.damage}</p>
-       <button id="addToTeamBtn${character.id}"onclick="laggTillILag(${character.id})">Välj mig!</button>
+       <button id="addToTeamBtn${character.id}"onclick="laggTillILag(${character.id})">Choose me!</button>
      `;
 
       characterList.appendChild(characterDiv);
@@ -62,7 +62,7 @@ function visaValtLag() {
        <p><strong>Health:</strong> ${monster.health}</p>
        <p><strong>Damage:</strong> ${monster.damage}</p>
             
-            <button class="delete-button" onclick="taBortFranLag(${monster.id})">Ta bort</button>
+            <button class="delete-button" onclick="taBortFranLag(${monster.id})">Remove</button>
         `;
     lagDiv.appendChild(monsterDiv);
   });
