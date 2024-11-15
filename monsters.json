@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Shadow Reaper",
+    "name": "Voidbringer",
     "speciality": "Masters shadows to cloak and deceive enemies.",
     "health": "190",
     "damage": "185",
-    "image": "img/Shadow Reaper.jpeg"
+    "image": "img/Voidbringer.jpeg"
   },
   {
     "id": 2,

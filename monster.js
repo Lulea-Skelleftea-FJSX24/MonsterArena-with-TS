@@ -17,8 +17,8 @@ fetch("./monsters.json")
       const infoParagraph = document.createElement("p");
       infoParagraph.classList.add("monster-info");
 
-      if (monster.name === "Shadow Reaper") {
-        infoParagraph.textContent = "A mysterious and fearsome creature that moves unseen in the darkness. Shadow Reaper harnesses the power of shadows to confuse its enemies, create illusions, and strike when least expected. With its sweeping scythe, it is a master of exploiting fear and uncertainty to its advantage.";
+      if (monster.name === "Voidbringer") {
+        infoParagraph.textContent = "A mysterious and fearsome creature that moves unseen in the darkness. Voidbringer harnesses the power of shadows to confuse its enemies, create illusions, and strike when least expected. With its sweeping scythe, it is a master of exploiting fear and uncertainty to its advantage.";
       } else if (monster.name === "Blaze Fury") {
         infoParagraph.textContent = "Is a scorching powerhouse, capable of unleashing fiery blasts that melt anything in their path. With an immunity to extreme heat, this monster thrives in the flames, turning battlefields into blazing infernos";
       } else if (monster.name === "Icy Phantom") {
