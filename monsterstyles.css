@@ -6,10 +6,12 @@ body {
   padding: 20px;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
 }
+
 
 nav ul {
   display: flex;
@@ -67,7 +69,7 @@ nav a:hover {
 .monster-card p {
   margin: 5px 0;
   font-size: 0.9em;
-  color: #555;
+  color: black;
 }
 
 .monster-card {
@@ -83,6 +85,6 @@ nav a:hover {
 
 .monster-info {
   font-style: italic;
-  color: #555;
+  color: black;
   margin-top: 10px;
 }
