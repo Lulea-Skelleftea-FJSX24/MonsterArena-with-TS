@@ -58,7 +58,8 @@ h2 {
 }
 
 /* Image style */
-#catalog img {
+#catalog img,
+.card img {
   border-radius: 6px;
   max-width: 100%;
   height: auto;
@@ -93,7 +94,15 @@ h1 {
 }
 
 .card {
-  width: 80px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 220px;
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: transform 0.2s;
+  /* width: 80px;
   height: 120px;
   color: #333;
   display: flex;
@@ -106,24 +115,12 @@ h1 {
   font-size: 1em;
   text-align: center;
   background-color: #f0f0f0; /* Neutral färg */
-  border: 1px solid #ccc;
-}
-
-.delete-button {
-  position: absolute;
-  bottom: 5px;
-  font-size: 0.8em;
-  cursor: pointer;
-  background-color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 2px 6px;
-  color: #333;
+  /* border: 1px solid #ccc; */
 }
 
 .tom-ruta {
-  width: 80px;
-  height: 120px;
+  width: 220px;
+  height: 445px;
   background-color: transparent;
   border: 1px solid #ccc;
   border-radius: 10px;
