@@ -1,3 +1,4 @@
+// Moa - But also copied from main JS file
 fetch("./monsters.json")
   .then((response) => {
     if (!response.ok) {
