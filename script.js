@@ -21,6 +21,11 @@ fetch("./monsters.json")
      `;
 
       characterList.appendChild(characterDiv);
+
+      if (valtLag.some((monster) => monster.id === character.id)) {
+        const addButton = document.getElementById(`addToTeamBtn${character.id}`);
+        addButton.disabled = true;
+      }
     });
   })
   .catch((error) => {
