@@ -1,7 +1,7 @@
 # MonsterArena
 
-Välkommen till vårat kort spel applikation.
-Denna applikation är kort och gott ett kort spel, det finns 8 olika monster, alla med olika egenskaper. Spelarna får välja 3 stycken monster till sin hand för att gå ut i strid.
+Välkommen till vår kortspelsapplikation.
+Denna applikation är kort och gott ett kortspel, det finns 8 olika monster, alla med olika egenskaper. Spelarna får välja 3 stycken monster till sin hand för att gå ut i strid.
 
 Välj 3 monster från de 8 som finns. Om du ändrar dig så kan du ta bort de monstret som du inte vill ha och välj ett annat monster. Du kan rensa hela laget om du vill ta bort alla monster.
 Du kan också lämna sidan med de 3 monster i din hand, de kommer vara kvar i din hand när du kommer tillbaka till sidan.
