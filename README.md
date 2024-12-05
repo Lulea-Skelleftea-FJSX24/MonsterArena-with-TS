@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MonsterArena
 
 Välkommen till vår kortspelsapplikation.
@@ -24,3 +25,6 @@ https://trello.com/b/0nuelDBP/team-monster-alliance
 
 # Miro
 https://miro.com/app/board/uXjVLKiSYEE=/
+=======
+# MonsterArena-with-TS
+>>>>>>> 777c7e8db1982c42349d308bbe37b3d2c6a571d0
