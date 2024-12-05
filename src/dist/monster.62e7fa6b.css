@@ -1,0 +1,89 @@
+body {
+  color: #333;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  justify-content: center;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+nav ul {
+  justify-content: center;
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 2rem 1rem;
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: inherit;
+}
+
+nav a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+#catalog {
+  grid-template-columns: repeat(4, 400px);
+  justify-content: center;
+  gap: 20px;
+  display: grid;
+}
+
+.monster-card {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.monster-card img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.monster-card h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+}
+
+.monster-card p {
+  color: #000;
+  margin: 5px 0;
+  font-size: .9em;
+}
+
+.monster-card {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.monster-info {
+  color: #000;
+  margin-top: 10px;
+  font-style: italic;
+}
+/*# sourceMappingURL=monster.62e7fa6b.css.map */
