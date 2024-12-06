@@ -1,6 +1,6 @@
 console.log("hello world");
 
-type monster = {
+type Monster = {
   id: number;
   name: string;
   speciality: string;
@@ -8,16 +8,16 @@ type monster = {
   damage: number;
   image: string;
 };
-let monsters: monster[];
+let monsters: Monster[] = [];
 async function getMonsters() {
   try {
-    const response = await fetch("./monsters.json");
+    const response: Response = await fetch("./monsters.json");
     console.log("hello world222222");
     if (!response.ok) {
       throw new Error(response.statusText);
     }
 
-    const data: monster[] = await response.json();
+    const data: Monster[] = await response.json();
     console.log("hello world33333");
 
     const characterList: HTMLElement | null =
@@ -26,8 +26,8 @@ async function getMonsters() {
     monsters = data;
     console.log("hello world4444444");
 
-    monsters.forEach((character) => {
-      const characterDiv = document.createElement("div");
+    monsters.forEach((character: Monster) => {
+      const characterDiv: HTMLElement | null = document.createElement("div");
       characterDiv.innerHTML = `
               <h2>${character.name}</h2>
              <img src="${character.image}" alt="${character.name}" width = "200">
@@ -39,11 +39,13 @@ async function getMonsters() {
 
       characterList?.appendChild(characterDiv);
 
-      if (valtLag.some((monster: monster) => monster.id === character.id)) {
-        const addButton = document.getElementById(
-          `addToTeamBtn${character.id}`
-        ) as HTMLButtonElement;
-        addButton.disabled = true;
+      if (valtLag.some((monster: Monster) => monster.id === character.id)) {
+        const addButton: HTMLButtonElement | null = document.querySelector(
+          `#addToTeamBtn${character.id}`
+        );
+        if (addButton) {
+          addButton.disabled = true;
+        }
       }
     });
   } catch (error) {
@@ -54,9 +56,11 @@ getMonsters();
 
 // NYA SCRIPTET FÖR VALDA MONSTER----------------------------------------------------------
 
-let valtLag = JSON.parse(localStorage.getItem("valtLag")) || [];
+let valtLag: Monster[] = JSON.parse(
+  localStorage.getItem("valtLag") || "[]"
+) as Monster[];
 
-function laggTillILag(id) {
+function laggTillILag(id: number) {
   if (valtLag.length >= 3) {
     return;
   }
@@ -64,8 +68,10 @@ function laggTillILag(id) {
     return;
   }
 
-  const valtMonster = monsters.find((monster) => monster.id === id);
-  let addBtnDissable = document.getElementById(`addToTeamBtn${valtMonster.id}`);
+  const valtMonster = monsters.find((monster) => monster.id === id) as Monster;
+  let addBtnDissable = document.getElementById(
+    `addToTeamBtn${valtMonster?.id}`
+  ) as HTMLButtonElement;
   addBtnDissable.disabled = true;
   valtLag.push(valtMonster);
   sparaLag();
@@ -74,11 +80,11 @@ function laggTillILag(id) {
 
 // Visa valt lag med specifika färger för varje position
 function visaValtLag() {
-  const lagDiv = document.getElementById("valt-lag");
+  const lagDiv = document.getElementById("valt-lag") as HTMLDivElement;
   lagDiv.innerHTML = "";
 
-  valtLag.forEach((monster, index) => {
-    const monsterDiv = document.createElement("div");
+  valtLag.forEach((monster) => {
+    const monsterDiv = document.createElement("div") as HTMLDivElement;
     monsterDiv.classList.add("card");
 
     monsterDiv.innerHTML = ` <h2>${monster.name}</h2>
@@ -91,18 +97,20 @@ function visaValtLag() {
         `;
     lagDiv.appendChild(monsterDiv);
   });
-  const tommaRutor = 3 - valtLag.length;
+  const tommaRutor: number = 3 - valtLag.length;
   for (let i = 0; i < tommaRutor; i++) {
-    const tomRuta = document.createElement("div");
+    const tomRuta = document.createElement("div") as HTMLDivElement;
     tomRuta.classList.add("tom-ruta");
     lagDiv.appendChild(tomRuta);
   }
 }
 
-function taBortFranLag(id) {
+function taBortFranLag(id: number) {
   valtLag = valtLag.filter((monster) => monster.id !== id);
   const valtMonster = monsters.find((monster) => monster.id === id);
-  let addBtnDissable = document.getElementById(`addToTeamBtn${valtMonster.id}`);
+  let addBtnDissable = document.getElementById(
+    `addToTeamBtn${valtMonster?.id}`
+  ) as HTMLButtonElement;
   addBtnDissable.disabled = false;
   sparaLag();
   visaValtLag();
