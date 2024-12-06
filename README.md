@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MonsterArena
 
 Välkommen till vår kortspelsapplikation.
@@ -17,14 +16,13 @@ För att kolla in spelet så behöver du bara ta hem detta repot, öppna det i V
 -------------------------------------------------------------------------------------------------------
 
 
-# Boilerroom doc v.46
-https://docs.google.com/document/d/1LADS01W20wHIngFy4NWen-7Pc-vHFBFNCrsr_EGO06c/edit?tab=t.0
+# Boilerroom doc v.49
+https://docs.google.com/document/d/1oYgXZJhLLeDyKfMuyGh4N3JtzJWjM2671sV6Fdg2esg/edit?tab=t.0#heading=h.yof8oxpxzkwd
 
 # Trello
-https://trello.com/b/0nuelDBP/team-monster-alliance
+https://trello.com/b/qMVUrLyA/boiler-room-v49
 
 # Miro
 https://miro.com/app/board/uXjVLKiSYEE=/
 =======
 # MonsterArena-with-TS
->>>>>>> 777c7e8db1982c42349d308bbe37b3d2c6a571d0
