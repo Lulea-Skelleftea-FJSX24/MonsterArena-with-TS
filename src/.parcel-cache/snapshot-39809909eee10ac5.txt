@@ -1,13 +1,13 @@
 51
 105C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monsters.js.map133778786111556011 0
-111C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.242b51c6.js.map133779561657684985 0
-89C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist133779561657696676 1
+111C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.242b51c6.js.map133779625429910643 0
+89C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist133779625429924347 1
 97C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\monster.html133778694613947821 0
 107C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\Mystic Mirage.jpeg133778694613752213 0
 88C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img133778694613937814 1
 102C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.html133779530508748116 0
 95C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\index.html133779530501975629 0
-93C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\index.ts133779562598801952 0
+93C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\index.ts133779627827176203 0
 109C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.35fe386b.js133779530508748116 0
 102C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\monsterstyles.css133778694613957851 0
 109C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\img\Blaze Fury.jpeg133778786111758946 0
@@ -33,7 +33,7 @@
 108C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.1303bb05.css133779530509316055 0
 110C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\img\Voidbringer.jpeg133778786111474685 0
 101C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monsters.js133778786111342499 0
-107C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.242b51c6.js133779561657669907 0
+107C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.242b51c6.js133779625429889658 0
 100C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.html133779530508736765 0
 112C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\img\Thunderstrike.jpeg133778786111707293 0
 113C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.35fe386b.js.map133779530509188455 0

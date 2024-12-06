@@ -37,16 +37,16 @@ function laggTillILag(id) {
     if (valtLag.length >= 3) return;
     if (valtLag.some((monster)=>monster.id === id)) return;
     const valtMonster = monsters.find((monster)=>monster.id === id);
-    let addBtnDissable = document.getElementById(`addToTeamBtn${valtMonster?.id}`);
-    addBtnDissable.disabled = true;
-    valtLag.push(valtMonster);
+    if (valtMonster) valtLag.push(valtMonster);
+    let addBtnDissable = document.querySelector(`#addToTeamBtn${valtMonster?.id}`);
+    if (addBtnDissable) addBtnDissable.disabled = true;
     sparaLag();
     visaValtLag();
 }
 // Visa valt lag med specifika färger för varje position
 function visaValtLag() {
-    const lagDiv = document.getElementById("valt-lag");
-    lagDiv.innerHTML = "";
+    const lagDiv = document.querySelector("#valt-lag");
+    if (lagDiv) lagDiv.innerHTML = "";
     valtLag.forEach((monster)=>{
         const monsterDiv = document.createElement("div");
         monsterDiv.classList.add("card");
@@ -58,26 +58,27 @@ function visaValtLag() {
             
             <button class="delete-button" onclick="taBortFranLag(${monster.id})">Remove</button>
         `;
-        lagDiv.appendChild(monsterDiv);
+        lagDiv?.appendChild(monsterDiv);
     });
     const tommaRutor = 3 - valtLag.length;
     for(let i = 0; i < tommaRutor; i++){
         const tomRuta = document.createElement("div");
         tomRuta.classList.add("tom-ruta");
-        lagDiv.appendChild(tomRuta);
+        lagDiv?.appendChild(tomRuta);
     }
 }
 function taBortFranLag(id) {
     valtLag = valtLag.filter((monster)=>monster.id !== id);
     const valtMonster = monsters.find((monster)=>monster.id === id);
-    let addBtnDissable = document.getElementById(`addToTeamBtn${valtMonster?.id}`);
-    addBtnDissable.disabled = false;
+    let addBtnDissable = document.querySelector(`#addToTeamBtn${valtMonster?.id}`);
+    if (addBtnDissable) addBtnDissable.disabled = false;
     sparaLag();
     visaValtLag();
 }
 function rensaLag() {
     valtLag = [];
-    document.querySelectorAll("button[disabled]").forEach((button)=>button.disabled = false);
+    const buttons = document.querySelectorAll("button[disabled]");
+    buttons.forEach((button)=>button.disabled = false);
     sparaLag();
     visaValtLag();
 }
