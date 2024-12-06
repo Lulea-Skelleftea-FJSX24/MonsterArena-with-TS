@@ -1,5 +1,3 @@
-console.log("hello world");
-
 type monster = {
   id: number;
   name: string;
@@ -8,23 +6,22 @@ type monster = {
   damage: number;
   image: string;
 };
+
 let monsters: monster[];
+
 async function getMonsters() {
   try {
     const response = await fetch("./monsters.json");
-    console.log("hello world222222");
     if (!response.ok) {
       throw new Error(response.statusText);
     }
 
     const data: monster[] = await response.json();
-    console.log("hello world33333");
 
     const characterList: HTMLElement | null =
       document.getElementById("catalog");
 
     monsters = data;
-    console.log("hello world4444444");
 
     monsters.forEach((character) => {
       const characterDiv = document.createElement("div");
