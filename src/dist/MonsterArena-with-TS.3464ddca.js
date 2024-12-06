@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"1gpQk":[function(require,module,exports,__globalThis) {
+})({"1IPx2":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -597,6 +597,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"j4kuM":[function(require,module,exports,__globalThis) {
 
-},{}]},["1gpQk","j4kuM"], "j4kuM", "parcelRequire94c2")
+},{}]},["1IPx2","j4kuM"], "j4kuM", "parcelRequire94c2")
 
 //# sourceMappingURL=MonsterArena-with-TS.3464ddca.js.map

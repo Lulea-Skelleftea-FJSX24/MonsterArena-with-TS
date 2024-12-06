@@ -1,5 +1,5 @@
 console.log("hello world");
-let monsters;
+let monsters = [];
 async function getMonsters() {
     try {
         const response = await fetch("./monsters.json");
@@ -22,8 +22,8 @@ async function getMonsters() {
            `;
             characterList?.appendChild(characterDiv);
             if (valtLag.some((monster)=>monster.id === character.id)) {
-                const addButton = document.getElementById(`addToTeamBtn${character.id}`);
-                addButton.disabled = true;
+                const addButton = document.querySelector(`#addToTeamBtn${character.id}`);
+                if (addButton) addButton.disabled = true;
             }
         });
     } catch (error) {
@@ -32,12 +32,15 @@ async function getMonsters() {
 }
 getMonsters();
 // NYA SCRIPTET FÖR VALDA MONSTER----------------------------------------------------------
-let valtLag = JSON.parse(localStorage.getItem("valtLag")) || [];
+let valtLag = JSON.parse(localStorage.getItem("valtLag") || "[]");
 function laggTillILag(id) {
     if (valtLag.length >= 3) return;
     if (valtLag.some((monster)=>monster.id === id)) return;
     const valtMonster = monsters.find((monster)=>monster.id === id);
-    let addBtnDissable = document.getElementById(`addToTeamBtn${valtMonster.id}`);
+    // todo
+    let addBtnDissable = document.getElementById(`addToTeamBtn${valtMonster?.id}`);
+    // type objet
+    console.log(typeof addBtnDissable);
     addBtnDissable.disabled = true;
     valtLag.push(valtMonster);
     sparaLag();
@@ -77,7 +80,10 @@ function taBortFranLag(id) {
 }
 function rensaLag() {
     valtLag = [];
-    document.querySelectorAll("button[disabled]").forEach((button)=>button.disabled = false);
+    // document.querySelectorAll("button[disabled]").forEach((button: NodeList) => (button.disabled = false));
+    let test = document.querySelectorAll("button[disabled]").forEach((button)=>console.log(typeof button));
+    console.log(test);
+    console.log();
     sparaLag();
     visaValtLag();
 }

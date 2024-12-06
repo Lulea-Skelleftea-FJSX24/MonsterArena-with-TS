@@ -1,39 +1,52 @@
-38
-111C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.242b51c6.js.map133778781640780056 0
-89C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist133778785546935148 1
-97C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\monster.html133778694613947821 0
-107C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\Mystic Mirage.jpeg133778694613752213 0
-88C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img133778694613937814 1
-102C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.html133778760363102515 0
-95C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\index.html133778695811727520 0
-93C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\index.ts133778784825765812 0
-109C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.35fe386b.js133778760362529984 0
-102C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\monsterstyles.css133778694613957851 0
-95C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\monster.js133778694613947821 0
-98C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\monsters.json133778694613957851 0
-94C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\README.md133778694613626981 0
-94C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\script.js133778694613967855 0
-112C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.1303bb05.css.map133778760363222489 0
-95C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\styles.css133778694613967855 0
-99C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\arena.jpeg133778694613902642 0
-104C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\Blaze Fury.jpeg133778694613666969 0
-104C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\Soulmender.jpeg133778694613797431 0
-105C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\Earthshaker.jpeg133778694613696986 0
-105C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\Icy Phantom.jpeg133778694613722091 0
-105C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\Venom Viper.jpeg133778694613852636 0
-105C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\swampMonster.jpg133778694613937814 0
-107C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\Thunderstrike.jpeg133778694613822525 0
-105C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\img\Voidbringer.jpeg133778694613882643 0
-109C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\arena.d1b294ad.jpeg133778760363588292 0
-108C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.1303bb05.css133778760362529984 0
-107C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.242b51c6.js133778781640755116 0
-100C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\index.html133778760362529984 0
-113C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.35fe386b.js.map133778760363222489 0
-110C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.62e7fa6b.css133778760363052126 0
-114C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.62e7fa6b.css.map133778760363222489 0
-109C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.6fd15bc1.js133778760362529984 0
-113C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monster.6fd15bc1.js.map133778760363222489 0
-122C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\MonsterArena-with-TS.3464ddca.js133778760362492134 0
-126C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\MonsterArena-with-TS.3464ddca.js.map133778760363222489 0
-103C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\monsters.json133778783556407447 0
-115C:\Users\Fredd\OneDrive\Skrivbord\SKOLA\monsterarena med ts\MonsterArena-with-TS\src\dist\swampMonster.21208986.jpg133778760363042007 0
+51
+87C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\index.242b51c6.js.map133779532159278038 0
+65C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist133779532159859176 1
+73C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\monster.html133779475343592928 0
+76C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\index.html133779532159839190 0
+64C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img133779475343516687 1
+86C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\Earthshaker.jpeg133779475342216688 0
+91C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\swampMonster.21208986.jpg133779532158491373 0
+69C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\index.ts133779532153733036 0
+78C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monster.html133779532159829199 0
+71C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\index.html133779475343516687 0
+85C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monster.35fe386b.js133779532158629395 0
+78C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\monsterstyles.css133779475343616912 0
+69C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img133779475342699843 1
+71C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\monster.js133779475343596853 0
+74C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\monsters.json133779475343616912 0
+70C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\README.md133779475341944962 0
+70C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\script.js133779475343616912 0
+85C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\Soulmender.jpeg133779475342375387 0
+88C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\index.1303bb05.css.map133779532159278038 0
+71C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\styles.css133779475343616912 0
+77C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monsters.js133779475342815133 0
+75C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\arena.jpeg133779475343431191 0
+89C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monster.6fd15bc1.js.map133779532158877113 0
+80C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\Blaze Fury.jpeg133779475342930760 0
+80C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\Soulmender.jpeg133779475343214308 0
+81C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\Earthshaker.jpeg133779475343017698 0
+81C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\Icy Phantom.jpeg133779475343017698 0
+83C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\Mystic Mirage.jpeg133779475343116399 0
+81C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\Venom Viper.jpeg133779475343344709 0
+81C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\swampMonster.jpg133779475343516687 0
+83C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\Thunderstrike.jpeg133779475343264444 0
+81C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\img\Voidbringer.jpeg133779475343426193 0
+102C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\MonsterArena-with-TS.3464ddca.js.map133779532158699401 0
+85C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\arena.d1b294ad.jpeg133779532159132905 0
+84C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\index.1303bb05.css133779532159227942 0
+86C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\Voidbringer.jpeg133779475342519891 0
+83C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\index.242b51c6.js133779532159212880 0
+89C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monster.35fe386b.js.map133779532158699401 0
+86C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monster.62e7fa6b.css133779532158932407 0
+90C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monster.62e7fa6b.css.map133779532158972364 0
+85C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monster.6fd15bc1.js133779532158837128 0
+98C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\MonsterArena-with-TS.3464ddca.js133779532158544128 0
+81C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monsters.js.map133779475342815133 0
+79C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\monsters.json133779475342815133 0
+80C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\arena.jpeg133779475342654238 0
+85C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\Blaze Fury.jpeg133779475342112308 0
+86C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\Icy Phantom.jpeg133779475342216688 0
+88C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\Mystic Mirage.jpeg133779475342314996 0
+86C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\swampMonster.jpg133779475342714895 0
+88C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\Thunderstrike.jpeg133779475342440743 0
+86C:\VS Code Projects\Boiler room v49\MonsterArena-with-TS\src\dist\img\Venom Viper.jpeg133779475342519891 0

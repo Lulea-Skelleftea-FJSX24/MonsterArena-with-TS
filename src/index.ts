@@ -8,10 +8,10 @@ type monster = {
   damage: number;
   image: string;
 };
-let monsters: monster[];
+let monsters: monster[] = [];
 async function getMonsters() {
   try {
-    const response = await fetch("./monsters.json");
+    const response: Response = await fetch("./monsters.json");
     console.log("hello world222222");
     if (!response.ok) {
       throw new Error(response.statusText);
@@ -26,8 +26,8 @@ async function getMonsters() {
     monsters = data;
     console.log("hello world4444444");
 
-    monsters.forEach((character) => {
-      const characterDiv = document.createElement("div");
+    monsters.forEach((character: monster) => {
+      const characterDiv: HTMLElement | null = document.createElement("div");
       characterDiv.innerHTML = `
               <h2>${character.name}</h2>
              <img src="${character.image}" alt="${character.name}" width = "200">
@@ -38,12 +38,12 @@ async function getMonsters() {
            `;
 
       characterList?.appendChild(characterDiv);
-
+      
       if (valtLag.some((monster: monster) => monster.id === character.id)) {
-        const addButton = document.getElementById(
-          `addToTeamBtn${character.id}`
-        ) as HTMLButtonElement;
-        addButton.disabled = true;
+        const addButton: HTMLButtonElement | null = document.querySelector(`#addToTeamBtn${character.id}`);
+        if (addButton) {
+          addButton.disabled = true;
+        }
       }
     });
   } catch (error) {
@@ -54,9 +54,9 @@ getMonsters();
 
 // NYA SCRIPTET FÖR VALDA MONSTER----------------------------------------------------------
 
-let valtLag = JSON.parse(localStorage.getItem("valtLag")) || [];
+let valtLag: monster[] = JSON.parse(localStorage.getItem("valtLag") || "[]") as monster[];
 
-function laggTillILag(id) {
+function laggTillILag(id: number) {
   if (valtLag.length >= 3) {
     return;
   }
@@ -64,8 +64,12 @@ function laggTillILag(id) {
     return;
   }
 
-  const valtMonster = monsters.find((monster) => monster.id === id);
-  let addBtnDissable = document.getElementById(`addToTeamBtn${valtMonster.id}`);
+  const valtMonster = monsters.find((monster) => monster.id === id) as monster;
+  // todo
+  let addBtnDissable: any = document.getElementById(`addToTeamBtn${valtMonster?.id}`);
+  // type objet
+  console.log(typeof addBtnDissable);
+  
   addBtnDissable.disabled = true;
   valtLag.push(valtMonster);
   sparaLag();
@@ -74,7 +78,7 @@ function laggTillILag(id) {
 
 // Visa valt lag med specifika färger för varje position
 function visaValtLag() {
-  const lagDiv = document.getElementById("valt-lag");
+  const lagDiv = document.getElementById("valt-lag") as HTMLDivElement;
   lagDiv.innerHTML = "";
 
   valtLag.forEach((monster, index) => {
@@ -99,10 +103,10 @@ function visaValtLag() {
   }
 }
 
-function taBortFranLag(id) {
+function taBortFranLag(id: number) {
   valtLag = valtLag.filter((monster) => monster.id !== id);
-  const valtMonster = monsters.find((monster) => monster.id === id);
-  let addBtnDissable = document.getElementById(`addToTeamBtn${valtMonster.id}`);
+  const valtMonster = monsters.find((monster) => monster.id === id) as monster;
+  let addBtnDissable = document.getElementById(`addToTeamBtn${valtMonster.id}`) as HTMLButtonElement;
   addBtnDissable.disabled = false;
   sparaLag();
   visaValtLag();
@@ -110,9 +114,12 @@ function taBortFranLag(id) {
 
 function rensaLag() {
   valtLag = [];
-  document
-    .querySelectorAll("button[disabled]")
-    .forEach((button) => (button.disabled = false));
+  // document.querySelectorAll("button[disabled]").forEach((button: NodeList) => (button.disabled = false));
+  let test =document.querySelectorAll("button[disabled]").forEach((button: any) => console.log(typeof button));
+  console.log(test);
+  
+  console.log();
+  
   sparaLag();
   visaValtLag();
 }
